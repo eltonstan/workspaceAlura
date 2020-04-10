@@ -1,0 +1,32 @@
+package br.com.alura.loja.modelo;
+
+public class Projeto {
+
+	String nome;
+	long id;
+	int anoDeInicio;
+
+	public Projeto() {
+		super();
+	}
+
+	public Projeto(String nome, long id, int anoDeInicio) {
+		super();
+		this.nome = nome;
+		this.id = id;
+		this.anoDeInicio = anoDeInicio;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public int getAnoDeInicio() {
+		return anoDeInicio;
+	}
+
+}

@@ -1,0 +1,11 @@
+package br.com.alura.loja.modelo;
+
+public class Projeto {
+	
+	String nome;
+	long id;
+	int anoDeInicio;
+	
+	
+
+}
